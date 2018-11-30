@@ -109,11 +109,11 @@
     menuItem.classList.add('list__item');
 
     if (obj.items) {
-      dropImage.src = '../images/down.svg';
+      dropImage.src = 'images/down.svg';
       dropImage.classList.add('list__drop-image');
       menuList.classList.add('list__no-list');
     } else {
-      dropImage.src = '../images/circle.png';
+      dropImage.src = 'images/circle.png';
       dropImage.classList.add('list__drop-image', 'list__image-size');
       menuList.classList.add('list__no-list');
     }
